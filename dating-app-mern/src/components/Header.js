@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import IconButton from '@mui/material/IconButton';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import CommentIcon from '@mui/icons-material/Comment';
 
 
 const Header = () => {
@@ -12,7 +13,7 @@ const Header = () => {
         </IconButton>
         <img className="header__logo" src="logo192.png" alt="header" />
         <IconButton>
-            <AccountCircleIcon color='success' fontSize="large" className="header__icon"></AccountCircleIcon>
+            <CommentIcon color='success' fontSize="large" className="header__icon"></CommentIcon>
         </IconButton>
            
 
