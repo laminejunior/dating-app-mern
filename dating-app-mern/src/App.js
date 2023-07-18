@@ -1,13 +1,20 @@
 import './App.css';
+import React from 'react';
 import Header from './components/Header';
-import DatingCard from './components/DatingCard'
+import DatingCard from './components/DatingCard';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <DatingCard/>
-    </div>
+    <>
+  
+        <Header />
+        <DatingCard />
+        <Footer/>
+   
+    </>
+    
   );
 }
 
