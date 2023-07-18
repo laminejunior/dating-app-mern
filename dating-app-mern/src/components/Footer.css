@@ -4,12 +4,42 @@
     justify-content: space-evenly;
     position: fixed;
     bottom: 40px;
-   
     }
 
 
-.footer__icon{
-        padding: 20px;
-        width: 50px;
+.bottomButton .BackupRestore {
+        padding: 3vw !important;
+        color: rgb(63, 103, 232);
+        box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 4vw;
+        
+}
+
+.bottomButton .Delete {
+    padding: 3vw !important;
+    color: rgb(220, 74, 103);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 4vw;
+}
+
+.bottomButton .Star {
+    padding: 3vw !important;
+    color: rgb(185, 6, 140);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 4vw;
+}
+
+.bottomButton .Volunteer {
+    padding: 3vw !important;
+    color: rgb(195, 239, 38);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 4vw;
+}
+
+.bottomButton .OfflineBolt {
+    padding: 3vw !important;
+    color: rgb(46, 176, 237);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 4vw;
 }
 
